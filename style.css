@@ -1,0 +1,50 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:wght@300&family=Raleway:wght@300&family=Ysabeau+Infant&display=swap');
+* {
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.bannerBgImage{
+    height: 100vh;
+    background: url("fedimages/bannerBgImage.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.bannerTitle{
+    font-size: 4rem;
+}
+.bannerDesc{
+    font-size: 2rem;
+}
+.card{
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: #d87093;
+    border: 2px solid #9acd32;
+    
+}
+.BIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid:hover{
+    border: 2px solid yellowgreen;
+}
+.card-img-top{
+    height:300px;
+}
